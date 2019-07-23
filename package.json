@@ -1,0 +1,28 @@
+{
+  "name": "heavenui.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "vuepress": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hujinbin/heavenUI.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hujinbin/heavenUI.github.io/issues"
+  },
+  "homepage": "https://github.com/hujinbin/heavenUI.github.io#readme"
+}
