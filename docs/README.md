@@ -4,7 +4,7 @@ home: true
 # heroImage: ./img/lion.png
 actionText: Start →
 # 网站入口 根据自己的首页配置路径
-actionLink: /introduction
+actionLink: /component/installation
 features:
 - title: heaven-UI
   details: 一套基于 Vue.js 的高质量UI 组件库

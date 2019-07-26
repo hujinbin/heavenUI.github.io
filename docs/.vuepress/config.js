@@ -2,31 +2,22 @@ module.exports = {
     title: 'Hello VuePress',
     description: 'Just playing around',
     themeConfig: {
-      search: false,
-      searchMaxSuggestions: 10,
+      search: false, //禁用默认的搜索框
+      searchMaxSuggestions: 10, //搜索条数
+      displayAllHeaders: true, //自动生成侧栏
+      sidebar: 'auto',
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Guide', link: '/guide/' },
-            {
-              text: 'Languages',
-              items: [
-                { text: 'Chinese', link: '/language/chinese' },
-                { text: 'Japanese', link: '/language/japanese' }
-              ]
-            }
         ],
         sidebar: [
           {
-            title: 'Group 1',
+            title: '开发指南',
             collapsable: false,
             children: [
-              '/'
+              '/',
             ]
           },
-          {
-            title: 'Group 2',
-            children: [ /* ... */ ]
-          }
         ]
     }
 }
