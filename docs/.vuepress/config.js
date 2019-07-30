@@ -7,15 +7,16 @@ module.exports = {
       displayAllHeaders: true, //自动生成侧栏
       sidebar: 'auto',
         nav: [
-            { text: 'Home', link: '/' },
-            { text: 'Guide', link: '/guide/' },
+            { text: '指南', link: '/guide' },
+            { text: '组件', link: '/component/installation' },
         ],
         sidebar: [
           {
             title: '开发指南',
             collapsable: false,
             children: [
-              '/',
+              '/component/installation',
+              '/component/quickstart',
             ]
           },
         ]
