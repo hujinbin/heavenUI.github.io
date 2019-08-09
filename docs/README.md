@@ -2,7 +2,7 @@
 home: true
 # 引用.vuepress下public的图片
 # heroImage: ./img/lion.png
-actionText: Start →
+actionText: 开始使用
 # 网站入口 根据自己的首页配置路径
 actionLink: /component/installation
 features:
