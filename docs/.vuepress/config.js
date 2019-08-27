@@ -23,8 +23,8 @@ module.exports = {
             title: '组件',
             collapsable: false,
             children: [
-              '/component/installation',
-              '/component/quickstart',
+              '/component/button',
+              '/component/icon',
             ]
           },
         ]
