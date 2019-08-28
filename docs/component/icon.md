@@ -1,6 +1,8 @@
 #### Icon 图标
 提供了一套常用的图标集合。
 
+### 示例
+
 ``` html
 <template>
   <h-icon name="loading"><h-icon>
@@ -19,7 +21,7 @@ export default {
 </script>
 ```
 
-## 配置选项
+### 配置选项
 | 参数 | 说明 | 类型 | 可选值 | 默认值 |
 |-|-|-|-|-|
 | name | 图标的名称 | String | - | - |
