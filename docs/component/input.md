@@ -11,4 +11,5 @@
 | value / v-model | 绑定值 | string / number | - | - |
 | loading | 是否加载中状态 | Boolean | — | false |
 | disabled | 是否禁用状态 | String | — | — |
-| icon | 图标类名 | Boolean | — | false |
+| readonly | 设置输入框为只读 | Boolean | — | false |
+| placeholder | 占位文本 | String | — | — |
