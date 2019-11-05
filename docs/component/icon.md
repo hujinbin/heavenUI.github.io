@@ -3,6 +3,9 @@
 
 ### 示例
 
+<example-icon></example-button>
+
+
 ``` html
 <template>
   <h-icon name="loading"><h-icon>

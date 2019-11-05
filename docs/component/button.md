@@ -3,6 +3,8 @@
 
 #### 常用的操作按钮。
 
+<example-button></example-button>
+
 
 ``` html
 <template>

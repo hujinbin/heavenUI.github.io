@@ -1,5 +1,5 @@
 ## 快速上手
-本节将介绍如何在项目中使用 Element。
+本节将介绍如何在项目中使用 heaven-UI。
 
 ### 使用 vue-cli@3
 我们为新版的 vue-cli 准备了相应的 heaven-UI 插件，你可以用它们快速地搭建一个基于 heaven-UI 的项目。

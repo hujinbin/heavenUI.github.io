@@ -1,6 +1,6 @@
 module.exports = {
-    title: 'Hello VuePress',
-    description: 'Just playing around',
+    title: 'Heaven',
+    description: '轻量、可靠的 Vue 组件库',
     themeConfig: {
       search: false, //禁用默认的搜索框
       searchMaxSuggestions: 10, //搜索条数
@@ -13,7 +13,7 @@ module.exports = {
         sidebar: [
           {
             title: '开发指南',
-            // collapsable: false,
+            collapsable: false,
             children: [
               '/component/installation',
               '/component/quickstart',
@@ -25,6 +25,9 @@ module.exports = {
             children: [
               '/component/button',
               '/component/icon',
+              '/component/input',
+              '/component/alert',
+              '/component/radio',
             ]
           },
         ]
