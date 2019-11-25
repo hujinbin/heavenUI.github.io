@@ -2,8 +2,9 @@
 
 
 #### 常用的操作按钮。
-
+<ClientOnly>
 <example-button></example-button>
+</ClientOnly>
 
 
 ``` html

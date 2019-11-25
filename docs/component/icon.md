@@ -2,8 +2,7 @@
 提供了一套常用的图标集合。
 
 ### 示例
-
-<example-icon></example-button>
+<example-icon></example-icon>
 
 
 ``` html

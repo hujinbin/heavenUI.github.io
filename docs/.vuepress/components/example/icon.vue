@@ -1,6 +1,9 @@
 <template>
   <div>
-    
+    <h-icon name="user"><h-icon>
+    <h-icon name="close"><h-icon>
+    <h-icon name="loading"><h-icon>
+    <h-icon name="set"><h-icon>
   </div>
 </template>
 

@@ -3,6 +3,25 @@
 
 #### 常用输入框。
 
+``` html
+<template>
+   <h-input v-model="value"></h-input>
+    {{value}}
+   <h-input type="textarea" v-model="value"></h-input>
+</template>
+```
+``` js
+<script>
+export default {
+  data() {
+    return {
+        value:''
+    }
+  },
+};
+</script>
+```
+
 
 ### 配置选项
 | 参数 | 说明 | 类型 | 可选值 | 默认值 |
