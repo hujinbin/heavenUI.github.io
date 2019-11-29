@@ -38,3 +38,4 @@ export default {
 | 方法名 | 说明 | 参数 | 返回值 |
 |-|-|-|-|-|
 | $alert | 展示提示 | options/message | $alert实例 |
+| $alert.msg | 展示提示 | options/message | $alert实例 |
