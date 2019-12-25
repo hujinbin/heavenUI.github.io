@@ -9,6 +9,8 @@
 
 <script>
 import {hIcon} from "Heaven";
+console.log(hIcon)
+console.log(require('Heaven'))
 export default {
   components: {
     hIcon
