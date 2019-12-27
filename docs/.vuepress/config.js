@@ -31,5 +31,8 @@ module.exports = {
             ]
           },
         ]
-    }
+    },
+    plugins: [
+      // require('./enhanceApp.js')
+    ]
 }
