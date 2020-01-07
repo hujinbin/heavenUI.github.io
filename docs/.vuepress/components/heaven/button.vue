@@ -11,6 +11,7 @@
 
 <script>
 import {hButton} from "heaven-ui";
+console.log(hButton)
 export default {
   components: {
     hButton

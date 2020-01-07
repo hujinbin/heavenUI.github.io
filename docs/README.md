@@ -12,5 +12,5 @@ features:
   details: 培养阅读习惯，提高英文读写能力，培养坚持阅读记笔记习惯
 - title: 组件demo
   details: heaven-vue-components 不定期更新~
-footer: MIT Licensed | COPYRIGHT © 2019 乐天堂游戏 版权所有
+footer: MIT Licensed | COPYRIGHT © 2019-2020 乐天堂游戏 版权所有
 ---

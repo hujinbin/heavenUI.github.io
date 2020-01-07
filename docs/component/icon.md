@@ -2,7 +2,7 @@
 提供了一套常用的图标集合。
 
 ### 示例
-<example-icon></example-icon>
+<heaven-icon></heaven-icon>
 
 
 ``` html
