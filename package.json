@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "dependencies": {
-    "heaven-ui": "0.0.1",
+    "heaven-ui": "0.0.2",
     "vuepress": "^1.0.2"
   },
   "devDependencies": {},
