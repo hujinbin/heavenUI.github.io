@@ -11,5 +11,5 @@ export default ({
 }) => {
  // ...做一些其他的应用级别的优化
  console.log(Heaven)
- Vue.use(Heaven)
+//  Vue.use(Heaven)
 }

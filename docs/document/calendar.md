@@ -7,12 +7,14 @@
 
 
 ### 示例
-<example-icon></example-icon>
+<ClientOnly>
+<example-calendar></example-calendar>
+</ClientOnly>
 
 
 ``` html
 <template>
-  <h-icon name="loading"><h-icon>
+  <calendar @change="change"></calendar>
 </template>
 ```
 ``` js
@@ -23,6 +25,9 @@ export default {
     }
   },
   methods: {
+    change(val){
+
+    }
   },
 };
 </script>
@@ -31,5 +36,17 @@ export default {
 ### 配置选项
 | 参数 | 说明 | 类型 | 可选值 | 默认值 |
 |-|-|-|-|-|
-| name | 图标的名称 | String | - | - |
-| size | 图标的大小，单位是 px | String / Number | - | - |
+| value | 默认选中日期时间戳 | Number | - | 当前日期 |
+| startDate | 最小日期时间戳 | Number | - | 当前日期 |
+| startDate | 最大日期时间戳 | Number | - | - |
+| multiple | 是否开启日期区间 | Boolean | - | false |
+
+
+
+### 方法
+| 参数 | 说明 | 类型 | 可选值 | 默认值 |
+|-|-|-|-|-|
+| value | 默认选中日期时间戳 | Number | - | 当前日期 |
+| startDate | 最小日期时间戳 | Number | - | 当前日期 |
+| startDate | 最大日期时间戳 | Number | - | - |
+| multiple | 是否开启日期区间 | Boolean | - | false |

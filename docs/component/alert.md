@@ -35,7 +35,6 @@ export default {
 
 ### 配置选项
 
-| 方法名 | 说明 | 参数 | 返回值 |
-|-|-|-|-|-|
-| $alert | 展示提示 | options/message | $alert实例 |
-| $alert.msg | 展示提示 | options/message | $alert实例 |
+| 方法名 | 说明 | 返回值 |
+|-|-|-|-|
+| change | 点击任意日期时触发 | 选中的时间戳 |
