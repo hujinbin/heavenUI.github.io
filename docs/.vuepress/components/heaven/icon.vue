@@ -8,8 +8,8 @@
 </template>
 
 <script>
-import {Icon} from 'heaven-ui'
-console.log(Icon)
+// import {Icon} from 'heaven-ui'
+// console.log(Icon)
 export default {
   data(){
     return{

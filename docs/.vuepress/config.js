@@ -9,6 +9,7 @@ module.exports = {
         nav: [
             { text: '指南', link: '/guide/introduce' },
             { text: '组件', link: '/component/installation' },
+            { text: '社区', link: 'http://www.leheavengame.com', target:'_blank' },
         ],
         sidebar: [
           {
