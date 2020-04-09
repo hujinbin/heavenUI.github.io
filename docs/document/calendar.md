@@ -44,9 +44,6 @@ export default {
 
 
 ### 方法
-| 参数 | 说明 | 类型 | 可选值 | 默认值 |
-|-|-|-|-|-|
-| value | 默认选中日期时间戳 | Number | - | 当前日期 |
-| startDate | 最小日期时间戳 | Number | - | 当前日期 |
-| startDate | 最大日期时间戳 | Number | - | - |
-| multiple | 是否开启日期区间 | Boolean | - | false |
+| 事件名称 | 说明 | 回调参数 |
+|-|-|-|-|
+| change | 点击任意日期时触发 | 选中的时间戳 |
