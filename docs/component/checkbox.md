@@ -1,12 +1,11 @@
-#### Radio 单选框
+#### Checkbox 多选框
 
 
-#### 常用单选框。
+#### 常用多选框。
 
 ``` html
 <template>
-    <h-radio :label="1" v-model="value">男</h-radio>
-    <h-radio :label="2" v-model="value">女</h-radio>
+    <h-checkbox v-model="value">多选框</h-checkbox>
 </template>
 ```
 ``` js
