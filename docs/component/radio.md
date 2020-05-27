@@ -28,3 +28,4 @@ export default {
 | value / v-model | 绑定值 | string / number | - | - |
 | disabled | 是否禁用状态 | String | — | — |
 | readonly | 设置输入框为只读 | Boolean | — | false |
+| name | 原生 name 属性 | String | — | — |
