@@ -7,7 +7,13 @@
 
 ``` html
 <template>
+  <h-icon name="md-arrow-top"><h-icon>
+  <h-icon name="search"><h-icon>
   <h-icon name="loading"><h-icon>
+  <h-icon name="jiantou1"><h-icon>
+  <h-icon name="ios-arrow-left"><h-icon>
+  <h-icon name="ios-arrow-left"><h-icon>
+  <h-icon name="lg-arrow-left"><h-icon>
 </template>
 ```
 ``` js
