@@ -10,7 +10,14 @@ module.exports = {
         nav: [
             { text: '指南', link: '/guide/introduce' },
             { text: '组件', link: '/component/installation' },
-            { text: '社区', link: 'http://www.leheavengame.com', target:'_blank' },
+            { text: '其他', items: [ 
+              { text: "惊觉社区", link:"http://jue.leheavengame.com" , target:'_blank'},
+              { text: "乐天堂游戏", link:"http://g.leheavengame.com" , target:'_blank'},
+              { text: "惠shop好货", link:"http://cash.leheavengame.com" , target:'_blank'},
+              { text: "乾学网", link: 'http://www.leheavengame.com', target:'_blank' },
+              ]
+            },
+            { text: 'Github', link: 'https://github.com/hujinbin/Heaven-UI', target:'_blank' },
         ],
         sidebar: [
           {
