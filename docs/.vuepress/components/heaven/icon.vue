@@ -1,11 +1,9 @@
 <template>
   <div class="heaven-icon-box">
-    <h1>图标集合</h1>
     <div class="heaven-icon-item">
-     <h-icon name="user"><h-icon>
       <p>user</p>
     </div>
-    <div>
+    <!-- <div>
      <h-icon name="close"><h-icon>
       <p>close</p>
     </div>
@@ -32,7 +30,7 @@
       <div>
      <h-icon name="del"><h-icon>
       <p>del</p>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -52,7 +50,15 @@ export default {
 
 <style lang="less" scoped>
   .heaven-icon-box{
+    display: flex;
+    border:1px solid #dddddd; 
+    margin: 20px 0;
     .heaven-icon-item{
+      width: 25%;
+      height: 120px;
+      text-align: center;
+      border-bottom: 1px solid #dddddd;
+      border-right: 1px solid #dddddd;
     }
   }
 </style>

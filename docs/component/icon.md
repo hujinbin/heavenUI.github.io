@@ -1,9 +1,7 @@
 #### Icon 图标
 提供了一套常用的图标集合。
 
-### 示例
-<heaven-icon></heaven-icon>
-
+### 使用方法
 
 ``` html
 <template>
@@ -28,6 +26,9 @@ export default {
 };
 </script>
 ```
+
+### 图标集合
+<heaven-icon></heaven-icon>
 
 ### 配置选项
 | 参数 | 说明 | 类型 | 可选值 | 默认值 |
