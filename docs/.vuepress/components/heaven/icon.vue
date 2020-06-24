@@ -1,6 +1,7 @@
 <template>
-  <div>
-    <div>
+  <div class="heaven-icon-box">
+    <h1>图标集合</h1>
+    <div class="heaven-icon-item">
      <h-icon name="user"><h-icon>
       <p>user</p>
     </div>
@@ -49,5 +50,9 @@ export default {
 }
 </script>
 
-<style>
+<style lang="less" scoped>
+  .heaven-icon-box{
+    .heaven-icon-item{
+    }
+  }
 </style>
