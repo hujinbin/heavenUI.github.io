@@ -28,7 +28,10 @@ export default {
 ```
 
 ### 图标集合
+<ClientOnly>
 <heaven-icon></heaven-icon>
+</ClientOnly>
+
 
 ### 配置选项
 | 参数 | 说明 | 类型 | 可选值 | 默认值 |
