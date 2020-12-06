@@ -2,6 +2,7 @@
  * 扩展 VuePress 应用
  */
 import Heaven from 'heaven-ui'
+import { Alert } from 'heaven-ui'
 import 'heaven-ui/dist/heaven-ui.min.css'
  
 export default ({
@@ -12,5 +13,8 @@ export default ({
 }) => {
  // ...做一些其他的应用级别的优化
  console.log(Heaven)
- Vue.use(Heaven)
+  console.log(Alert)
+  console.log(require('heaven-ui'))
+ 
+//  Vue.use(Heaven)
 }
