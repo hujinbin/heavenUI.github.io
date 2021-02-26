@@ -3,26 +3,23 @@
 
 #### 常用的操作按钮。
 <ClientOnly>
-<heaven-button></heaven-button>
+<heaven-button-default></heaven-button-default>
 </ClientOnly>
 
 
 ``` html
 <template>
-   <h-button>默认</h-button>
-    <h-button type="primary">简约</h-button>
-    <h-button type="success">成功</h-button>
-    <h-button type="warning" size="mini">警告</h-button>
-    <h-button type="danger" loading>加载按钮</h-button>
-    <h-button type="primary" icon="edit"></h-button>
+   <h-button>默认按钮</h-button>
+   <h-button type="primary">主要按钮</h-button>
+   <h-button type="success">成功按钮</h-button>
+   <h-button type="warning">警告按钮</h-button>
+   <h-button type="danger">危险按钮</h-button>
+   <h-button type="info">信息按钮</h-button>
 </template>
 ```
 
 
 #### 按钮组。
-<ClientOnly>
-<heaven-button></heaven-button>
-</ClientOnly>
 
 
 ``` html
@@ -35,6 +32,19 @@
     <h-button type="danger" loading>加载按钮</h-button>
     <h-button type="primary" icon="edit"></h-button>
 </h-button-group>
+</template>
+```
+
+
+#### 加载中
+<ClientOnly>
+<heaven-button-loading></heaven-button-loading>
+</ClientOnly>
+
+
+``` html
+<template>
+  <h-button type="primary" loading>加载按钮</h-button> 
 </template>
 ```
 
