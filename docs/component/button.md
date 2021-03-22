@@ -19,18 +19,33 @@
 ```
 
 
-#### 按钮组。
+#### 禁用状态
 
+<ClientOnly>
+<heaven-button-disabled></heaven-button-disabled>
+</ClientOnly>
+
+``` html
+<template>
+    <h-button disabled>默认按钮</h-button>
+    <h-button disabled type="primary">主要按钮</h-button>
+    <h-button disabled type="success">成功按钮</h-button>
+    <h-button disabled type="warning">警告按钮</h-button>
+    <h-button disabled type="danger">危险按钮</h-button>
+    <h-button disabled type="info">信息按钮</h-button> 
+</template> 
+```
+
+#### 按钮组。
+<ClientOnly>
+<heaven-button-group></heaven-button-group>
+</ClientOnly>
 
 ``` html
 <template>
 <h-button-group>
-  <h-button>默认</h-button>
-    <h-button type="primary">简约</h-button>
-    <h-button type="success">成功</h-button>
-    <h-button type="warning" size="mini">警告</h-button>
-    <h-button type="danger" loading>加载按钮</h-button>
-    <h-button type="primary" icon="edit"></h-button>
+  <h-button type="primary">上一页</h-button>
+  <h-button type="primary">下一页</h-button>
 </h-button-group>
 </template>
 ```
