@@ -8,9 +8,9 @@ actionLink: /component/installation
 features:
 - title: heaven-UI
   details: 一套基于 Vue.js 的高质量UI 组件库
-- title: 英语阅读
-  details: 培养阅读习惯，提高英文读写能力，培养坚持阅读记笔记习惯
+- title: 指南
+  details: 了解设计指南，帮助产品设计人员搭建逻辑清晰、结构合理且高效易用的产品。
 - title: 组件demo
   details: heaven-vue-components 不定期更新~
-footer: MIT Licensed | COPYRIGHT © 2019-2020 乐天堂游戏 版权所有
+footer: MIT Licensed | COPYRIGHT © 2019-2021 乐天堂 版权所有
 ---

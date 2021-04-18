@@ -11,10 +11,11 @@ module.exports = {
             { text: '指南', link: '/guide/introduce' },
             { text: '组件', link: '/component/installation' },
             { text: '其他', items: [ 
-              { text: "惊觉社区", link:"http://jue.leheavengame.com" , target:'_blank'},
-              { text: "乐天堂游戏", link:"http://g.leheavengame.com" , target:'_blank'},
-              { text: "惠shop好货", link:"http://cash.leheavengame.com" , target:'_blank'},
-              { text: "乾学网", link: 'http://www.leheavengame.com', target:'_blank' },
+              { text: "我的博客", link:"https://hjb.leheavengame.com" , target:'_blank'},
+              { text: "惊觉社区", link:"https://jue.leheavengame.com" , target:'_blank'},
+              { text: "惠shop好货", link:"https://cash.leheavengame.com" , target:'_blank'},
+              { text: "乾学网", link: 'https://bbs.leheavengame.com', target:'_blank' },
+              { text: "乐天堂游戏", link:"https://g.leheavengame.com" , target:'_blank'},
               ]
             },
             { text: 'Github', link: 'https://github.com/hujinbin/Heaven-UI', target:'_blank' },
@@ -32,11 +33,15 @@ module.exports = {
             title: '组件',
             collapsable: false,
             children: [
+              '/component/alert',
               '/component/button',
+              '/component/checkbox',
               '/component/icon',
               '/component/input',
-              '/component/alert',
+              '/component/pagination',
               '/component/radio',
+              '/component/rate',
+              '/component/select',
             ]
           },
         ]

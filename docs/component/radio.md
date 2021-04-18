@@ -3,6 +3,10 @@
 
 #### 常用单选框。
 
+<ClientOnly>
+<heaven-radio></heaven-radio>
+</ClientOnly>
+
 ``` html
 <template>
     <h-radio :label="1" v-model="value">男</h-radio>

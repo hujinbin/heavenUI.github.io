@@ -4,31 +4,31 @@
       <h-icon name="user"></h-icon>
       <p>user</p>
     </div>
-    <div>
+    <div class="heaven-icon-item">
      <h-icon name="close"></h-icon>
       <p>close</p>
     </div>
-    <div>
+    <div class="heaven-icon-item">
      <h-icon name="loading"></h-icon>
       <p>loading</p>
     </div>
-    <div>
+    <div class="heaven-icon-item">
      <h-icon name="set"></h-icon>
       <p>set</p>
     </div>
-     <div>
+     <div class="heaven-icon-item">
      <h-icon name="star-on"></h-icon>
       <p>star-on</p>
     </div>
-     <div>
+     <div class="heaven-icon-item">
      <h-icon name="star-off"></h-icon>
       <p>star-off</p>
     </div>
-      <div>
+      <div class="heaven-icon-item">
      <h-icon name="more"></h-icon>
       <p>more</p>
     </div>
-      <div>
+      <div class="heaven-icon-item">
      <h-icon name="del"></h-icon>
       <p>del</p>
     </div>
@@ -54,7 +54,7 @@ export default {
     margin: 20px 0;
     .heaven-icon-item{
       width: 25%;
-      height: 120px;
+      padding: 20px 0;
       text-align: center;
       border-bottom: 1px solid #dddddd;
       border-right: 1px solid #dddddd;

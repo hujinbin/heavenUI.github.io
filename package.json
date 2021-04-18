@@ -8,11 +8,12 @@
   },
   "dependencies": {
     "heaven-ui": "0.0.2",
-    "less": "^3.12.2",
-    "less-loader": "^6.1.2",
     "vuepress": "^1.0.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "less": "^3.13.1",
+    "less-loader": "^6.2.0"
+  },
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",

@@ -3,6 +3,10 @@
 
 #### 常用提示弹窗。
 
+<ClientOnly>
+<heaven-alert></heaven-alert>
+</ClientOnly>
+
 ``` html
 <template>
     <h-button type="danger" @click="showAlert">打开弹窗</h-button>

@@ -3,6 +3,12 @@
 
 #### 常用输入框。
 
+
+<ClientOnly>
+<heaven-input></heaven-input>
+</ClientOnly>
+
+
 ``` html
 <template>
    <h-input v-model="value"></h-input>
