@@ -1,52 +1,132 @@
 module.exports = {
-    title: 'Heaven',
-    description: '轻量、可靠的 Vue 组件库',
-    themeConfig: {
-      search: false, //禁用默认的搜索框
-      globalLayout: '/components/layout/GlobalLayout.vue',
-      searchMaxSuggestions: 10, //搜索条数
-      displayAllHeaders: true, //自动生成侧栏
-      sidebar: 'auto',
-        nav: [
-            { text: '指南', link: '/guide/introduce' },
-            { text: '组件', link: '/component/installation' },
-            { text: '其他', items: [ 
-              { text: "我的博客", link:"https://hjb.leheavengame.com" , target:'_blank'},
-              { text: "惊觉社区", link:"https://jue.leheavengame.com" , target:'_blank'},
-              { text: "惠shop好货", link:"https://cash.leheavengame.com" , target:'_blank'},
-              { text: "乾学网", link: 'https://bbs.leheavengame.com', target:'_blank' },
-              { text: "乐天堂游戏", link:"https://g.leheavengame.com" , target:'_blank'},
-              ]
-            },
-            { text: 'Github', link: 'https://github.com/hujinbin/Heaven-UI', target:'_blank' },
+  title: "Heaven",
+  description: "轻量、可靠的 Vue 组件库",
+  themeConfig: {
+    search: false, //禁用默认的搜索框
+    globalLayout: "/components/layout/GlobalLayout.vue",
+    searchMaxSuggestions: 10, //搜索条数
+    displayAllHeaders: true, //自动生成侧栏
+    sidebar: "auto",
+    nav: [
+      { text: "指南", link: "/guide/introduce" },
+      { text: "组件", link: "/component/installation" },
+      {
+        text: "其他",
+        items: [
+          {
+            text: "淘宝店",
+            link:
+              "https://shop266766986.taobao.com/?spm=a230r.7195193.1997079397.44.nqV10Q",
+            target: "_blank",
+          },
+          {
+            text: "我的博客",
+            link: "https://hjb.leheavengame.com",
+            target: "_blank",
+          },
+          {
+            text: "惊觉社区",
+            link: "https://jue.leheavengame.com",
+            target: "_blank",
+          },
+          {
+            text: "惠shop好货",
+            link: "https://cash.leheavengame.com",
+            target: "_blank",
+          },
+          {
+            text: "乾学网",
+            link: "https://bbs.leheavengame.com",
+            target: "_blank",
+          },
+          {
+            text: "乐天堂游戏",
+            link: "https://g.leheavengame.com",
+            target: "_blank",
+          },
         ],
-        sidebar: [
-          {
-            title: '开发指南',
-            collapsable: false,
-            children: [
-              '/component/installation',
-              '/component/quickstart',
-            ]
-          },
-          {
-            title: '组件',
-            collapsable: false,
-            children: [
-              '/component/alert',
-              '/component/button',
-              '/component/checkbox',
-              '/component/icon',
-              '/component/input',
-              '/component/pagination',
-              '/component/radio',
-              '/component/rate',
-              '/component/select',
-            ]
-          },
-        ]
-    },
-    plugins: [
-      // require('./enhanceApp.js')
-    ]
-}
+      },
+      {
+        text: "Github",
+        link: "https://github.com/hujinbin/Heaven-UI",
+        target: "_blank",
+      },
+    ],
+    sidebar: [
+      {
+        title: "开发指南",
+        collapsable: false,
+        children: ["/component/installation", "/component/quickstart"],
+      },
+      {
+        title: "组件",
+        collapsable: false,
+        children: [
+          "/component/alert",
+          "/component/button",
+          "/component/checkbox",
+          "/component/icon",
+          "/component/input",
+          "/component/pagination",
+          "/component/radio",
+          "/component/rate",
+          "/component/select",
+        ],
+      },
+    ],
+  },
+  head: [
+    // <!--百度统计代码-->
+    [
+      "script",
+      {},
+      `
+      var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?1a6036ed362b2ca3cc01da62da664b79";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+    `,
+    ],
+    // <!--百度站长自动推送-->
+    [
+      "script",
+      {},
+      `
+      (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+    `,
+    ],
+    // <!--广告联盟代码-->
+    [
+      "script",
+      {},
+      `
+     (function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://iclickcdn.com/tag.min.js',4175290,document.body||document.documentElement)
+    `,
+    ],
+    [
+      "script",
+      {
+        src: "https://whazugho.com/pfe/current/tag.min.js?z=4175648",
+        "data-cfasync": "false",
+        async:true,
+      },
+    ],
+  ],
+  plugins: [
+    // require('./enhanceApp.js')
+  ],
+};
