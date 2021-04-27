@@ -3,6 +3,12 @@
 
 #### 基础用法
 
+<ClientOnly>
+<heaven-rate></heaven-rate>
+</ClientOnly>
+
+
+
 ``` html
 <template>
    <h-rate v-model="value"></h-rate>

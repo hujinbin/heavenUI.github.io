@@ -1,16 +1,5 @@
-#### Select 选择器
-
-
-<ClientOnly>
-<heaven-select></heaven-select>
-</ClientOnly>
-
-
-#### 基础用法
-
-``` html
 <template>
-   <h-select  v-model="value" placeholder="请选择">
+  <h-select  v-model="value" placeholder="请选择">
       <h-option
       v-for="item in options"
       :key="item.value"
@@ -19,11 +8,10 @@
       </h-option>
     </h-select>
 </template>
-```
-``` js
+
 <script>
 export default {
-  data() {
+data() {
     return {
         value:'',
           options: [
@@ -50,12 +38,9 @@ export default {
       ],
     }
   },
-};
+}
 </script>
-```
 
+<style>
 
-### 配置选项
-| 参数 | 说明 | 类型 | 可选值 | 默认值 |
-|-|-|-|-|-|
-| value / v-model | 绑定值 | boolean / string / number | - | - |
+</style>
