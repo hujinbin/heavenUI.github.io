@@ -109,22 +109,6 @@ module.exports = {
     })();
     `,
     ],
-    // <!--广告联盟代码-->
-    [
-      "script",
-      {},
-      `
-     (function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://iclickcdn.com/tag.min.js',4175290,document.body||document.documentElement)
-    `,
-    ],
-    [
-      "script",
-      {
-        src: "https://whazugho.com/pfe/current/tag.min.js?z=4175648",
-        "data-cfasync": "false",
-        async:true,
-      },
-    ],
   ],
   plugins: [
     // require('./enhanceApp.js')
