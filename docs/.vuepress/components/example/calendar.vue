@@ -1,20 +1,20 @@
 <template>
   <div>
-    <!-- <Calendar></Calendar> -->
+    <Calendar></Calendar>
   </div>
 </template>
 
 <script>
-// import  { Calendar }  from 'calendar-selector';
+import  { Calendar }  from 'calendar-selector';
 // console.log(Calendar)
 export default {
   data(){
     return{
     }
   },
-  // components: {
-	//    Calendar,
-  // },
+  components: {
+	   Calendar,
+  },
   methods:{
   }
 }
