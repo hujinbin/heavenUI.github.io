@@ -109,6 +109,14 @@ module.exports = {
     })();
     `,
     ],
+    [
+      "script",
+      {
+        'data-ad-client':'ca-pub-7979174285252748',
+        async: true,
+        src:'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
+      }
+    ],
   ],
   plugins: [
     // require('./enhanceApp.js')
