@@ -10,8 +10,9 @@ module.exports = {
     nav: [
       { text: "指南", link: "/guide/introduce" },
       { text: "组件", link: "/component/installation" },
+      { text: "其他插件", link: "/document/calendar" },
       {
-        text: "其他",
+        text: "友链",
         items: [
           {
             text: "淘宝店",
