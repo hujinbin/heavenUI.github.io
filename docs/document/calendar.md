@@ -1,3 +1,5 @@
+### calendar-selector 日历
+
 ### calendar-selector 基于 vue 2.0 开发的轻量，高性能日历组件
 
 #### calendar-selector
@@ -5,6 +7,10 @@
 占用内存小，性能好，样式好看，可扩展性强
 原生 js 开发，没引入第三方库
 
+<InArticleAdsense
+    data-ad-client="ca-pub-7979174285252748"
+    data-ad-slot="2903739942">
+</InArticleAdsense>
 
 ### 示例
 <ClientOnly>

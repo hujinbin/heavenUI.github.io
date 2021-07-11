@@ -30,5 +30,4 @@ components: {
 </script>
 
 <style>
-
 </style>

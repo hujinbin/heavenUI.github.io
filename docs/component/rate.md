@@ -1,5 +1,10 @@
 #### Rate 评分
 
+<InArticleAdsense
+    data-ad-client="ca-pub-7979174285252748"
+    data-ad-slot="2903739942">
+</InArticleAdsense>
+
 
 #### 基础用法
 

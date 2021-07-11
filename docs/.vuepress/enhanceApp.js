@@ -2,7 +2,10 @@
  * 扩展 VuePress 应用
  */
 import Heaven from 'heaven-ui'
-import 'heaven-ui/lib/heaven-ui.min.css'
+// import 'heaven-ui/lib/heaven-ui.min.css'
+// import 'pull-refresh-vue/index.css'
+// import 'calendar-selector/index.css'
+// import 'infinite-scroll-vue/index.css'
  
 export default ({
  Vue, // VuePress 正在使用的 Vue 构造函数
@@ -13,4 +16,18 @@ export default ({
  // ...做一些其他的应用级别的优化
  console.log(Heaven)
  Vue.use(Heaven)
+//  谷歌联盟
+ if (typeof window !== 'undefined') {
+    import('vue-google-adsense')
+      .then(module => {
+        const Ads = module.default
+        Vue.use(require('vue-script2'))
+        Vue.use(Ads.Adsense)
+        Vue.use(Ads.InArticleAdsense)
+        Vue.use(Ads.InFeedAdsense)
+      })
+      .catch(e => {
+        console.log(e)
+      })
+  }
 }

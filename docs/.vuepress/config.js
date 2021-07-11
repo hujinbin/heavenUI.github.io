@@ -7,17 +7,23 @@ module.exports = {
     searchMaxSuggestions: 10, //搜索条数
     displayAllHeaders: true, //自动生成侧栏
     sidebar: "auto",
-    nav: [
-      { text: "指南", link: "/guide/introduce" },
-      { text: "组件", link: "/component/installation" },
-      { text: "其他插件", link: "/document/calendar" },
+    nav: [{
+        text: "指南",
+        link: "/guide/introduce"
+      },
+      {
+        text: "组件",
+        link: "/component/installation",
+      },
+      {
+        text: "其他插件",
+        link: "/document/calendar"
+      },
       {
         text: "友链",
-        items: [
-          {
+        items: [{
             text: "淘宝店",
-            link:
-              "https://shop266766986.taobao.com/?spm=a230r.7195193.1997079397.44.nqV10Q",
+            link: "https://shop266766986.taobao.com/?spm=a230r.7195193.1997079397.44.nqV10Q",
             target: "_blank",
           },
           {
@@ -53,8 +59,16 @@ module.exports = {
         target: "_blank",
       },
     ],
-    sidebar: [
-      {
+    sidebar:{
+      '/guide':[
+        {
+          title: "介绍",
+          collapsable: false,
+          children: ["/guide/introduce.md"],
+        },
+      ],
+      '/component':
+      [{
         title: "开发指南",
         collapsable: false,
         children: ["/component/installation", "/component/quickstart"],
@@ -74,7 +88,20 @@ module.exports = {
           "/component/select",
         ],
       },
+      
     ],
+    '/document':[
+      {
+        title: "其他插件",
+        collapsable: false,
+        children: [
+          "/document/calendar",
+          "/document/infinitescroll",
+          "/document/pullrefresh",
+        ]
+      },
+    ]
+    }, 
   },
   head: [
     // <!--百度统计代码-->
@@ -113,9 +140,9 @@ module.exports = {
     [
       "script",
       {
-        'data-ad-client':'ca-pub-7979174285252748',
+        'data-ad-client': 'ca-pub-7979174285252748',
         async: true,
-        src:'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
       }
     ],
   ],

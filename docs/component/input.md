@@ -1,6 +1,11 @@
 #### Input 输入框
 
 
+<InArticleAdsense
+    data-ad-client="ca-pub-7979174285252748"
+    data-ad-slot="2903739942">
+</InArticleAdsense>
+
 #### 常用输入框。
 
 

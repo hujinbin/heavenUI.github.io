@@ -1,5 +1,11 @@
 #### 安装
 
+<InArticleAdsense
+    data-ad-client="ca-pub-7979174285252748"
+    data-ad-slot="2903739942">
+</InArticleAdsense>
+
+
 #### npm 安装
 推荐使用 npm 的方式安装，它能更好地和 webpack 打包工具配合使用。
 

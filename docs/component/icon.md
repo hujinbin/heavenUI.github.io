@@ -1,6 +1,11 @@
 #### Icon 图标
 提供了一套常用的图标集合。
 
+<InArticleAdsense
+    data-ad-client="ca-pub-7979174285252748"
+    data-ad-slot="2903739942">
+</InArticleAdsense>
+
 ### 使用方法
 
 ``` html
