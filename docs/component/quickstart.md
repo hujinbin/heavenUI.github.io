@@ -5,6 +5,9 @@
 我们为新版的 vue-cli 准备了相应的 heaven-UI 插件，你可以用它们快速地搭建一个基于 heaven-UI 的项目。
 
 <InArticleAdsense
+ style="display:block; text-align:center;"
+    data-full-width-responsive="true"
+    data-ad-format='auto'
     data-ad-client="ca-pub-7979174285252748"
     data-ad-slot="2903739942">
 </InArticleAdsense>

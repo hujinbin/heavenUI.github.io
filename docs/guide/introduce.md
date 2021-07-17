@@ -7,6 +7,10 @@
 heaven-UI 是**个人**开源的pc端组件库，是一套基于 Vue.js 的开源 UI 组件库，主要服务于 PC 界面的中后台产品。
 
 <InArticleAdsense
+    class="adsbygoogle"
+    style="display:block; text-align:center;"
+    data-full-width-responsive="true"
+    data-ad-format='auto'
     data-ad-client="ca-pub-7979174285252748"
     data-ad-slot="2903739942">
 </InArticleAdsense>
