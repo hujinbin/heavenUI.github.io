@@ -9,6 +9,7 @@
 
 <script>
 import  { pullRefresh }  from 'pull-refresh-vue';
+import 'pull-refresh-vue/index.css'
 export default {
 components: {
 	   pullRefresh,
@@ -19,12 +20,12 @@ components: {
         }
     },
     methods:{
-        loadMore(){
-            setTimeout(()=>{
-                this.num = this.num + 20
-                console.log('加载次数='+(this.num/20))
-            },2000)
-        },
+        refresh (done) {
+            setTimeout(() => {
+              this.num++
+              done()    //把状态归0
+            }, 500)
+        }
     }
 }
 </script>

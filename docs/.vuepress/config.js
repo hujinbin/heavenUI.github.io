@@ -46,11 +46,6 @@ module.exports = {
             link: "https://bbs.leheavengame.com",
             target: "_blank",
           },
-          {
-            text: "乐天堂游戏",
-            link: "https://g.leheavengame.com",
-            target: "_blank",
-          },
         ],
       },
       {

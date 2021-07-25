@@ -2,10 +2,7 @@
  * 扩展 VuePress 应用
  */
 import Heaven from 'heaven-ui'
-// import 'heaven-ui/lib/heaven-ui.min.css'
-// import 'pull-refresh-vue/index.css'
-// import 'calendar-selector/index.css'
-// import 'infinite-scroll-vue/index.css'
+import 'heaven-ui/lib/heaven-ui.min.css'
  
 export default ({
  Vue, // VuePress 正在使用的 Vue 构造函数
