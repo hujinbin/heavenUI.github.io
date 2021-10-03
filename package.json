@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "calendar-selector": "0.0.3",
-    "heaven-ui": "0.0.2",
+    "heaven-ui": "0.0.3",
     "infinite-scroll-vue": "0.0.1",
     "pull-refresh-vue": "0.0.1",
     "vue-google-adsense": "^1.9.3",

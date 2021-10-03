@@ -66,12 +66,17 @@ module.exports = {
       [{
         title: "开发指南",
         collapsable: false,
-        children: ["/component/installation", "/component/quickstart"],
+        children: [
+          "/component/installation", 
+          "/component/quickstart",
+          "/component/changelog"
+        ],
       },
       {
         title: "组件",
         collapsable: false,
         children: [
+          "/component/color",
           "/component/alert",
           "/component/button",
           "/component/checkbox",
