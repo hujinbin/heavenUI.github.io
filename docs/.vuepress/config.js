@@ -137,12 +137,34 @@ module.exports = {
     })();
     `,
     ],
+    // 谷歌联盟广告
     [
       "script",
       {
         'data-ad-client': 'ca-pub-7979174285252748',
         async: true,
         src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
+      }
+    ],
+    // 百度联盟广告
+    [
+      "script",
+      {},
+      `
+    (window.slotbydup = window.slotbydup || []).push({
+        id: "u6674696",
+        container: "_2jnzg4y2y03",
+        async: true
+    });
+    `,
+    ],
+    // 百度联盟广告
+    [
+      "script",
+      {
+        defer: true,
+        async: true,
+        src: '//cpro.baidustatic.com/cpro/ui/cm.js',
       }
     ],
   ],
