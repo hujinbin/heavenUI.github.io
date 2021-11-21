@@ -15,9 +15,6 @@ heaven-UI 是**个人**开源的pc端组件库，是一套基于 Vue.js 的开�
     data-ad-slot="2903739942">
 </InArticleAdsense>
 
-<div id="_2jnzg4y2y03" class="_2jnzg4y2y03"></div>
-
-
 ## 特性
 
 - 丰富的组件和功能，满足绝大部分网站场景
