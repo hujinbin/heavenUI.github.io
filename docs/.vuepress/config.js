@@ -95,6 +95,7 @@ module.exports = {
         title: "其他插件",
         collapsable: false,
         children: [
+          "/document/cli",
           "/document/calendar",
           "/document/infinitescroll",
           "/document/pullrefresh",
