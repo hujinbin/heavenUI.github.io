@@ -1,6 +1,6 @@
 module.exports = {
-  title: "Heaven",
-  description: "轻量、可靠的 Vue 组件库",
+  title: "Heaven UI - 经典前端 UI 框架",
+  description: "Heaven UI是一套开源的 Web UI 解决方案,其内部采用的是自身经典的模块化规范,并遵循原生 HTML/CSS/JS 的开发方式,极易上手,拿来即用。其外在极简,却又不失饱满的内在,体积轻盈,是一款轻量、可靠、好用的 Vue 组件库",
   themeConfig: {
     search: false, //禁用默认的搜索框
     globalLayout: "/components/layout/GlobalLayout.vue",
@@ -105,6 +105,7 @@ module.exports = {
     }, 
   },
   head: [
+    ['meta', { name: 'keywords', content: 'Heaven,Heaven UI,heaven-ui,前端,vue,组件库,vue组件库,UI框架,前端UI框架' }],
     // <!--百度统计代码-->
     [
       "script",
