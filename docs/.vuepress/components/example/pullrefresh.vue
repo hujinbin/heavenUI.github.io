@@ -9,7 +9,7 @@
 
 <script>
 import  { pullRefresh }  from 'pull-refresh-vue';
-// import 'pull-refresh-vue/index.css'
+import 'pull-refresh-vue/dist/index.css'
 export default {
 components: {
 	   pullRefresh,

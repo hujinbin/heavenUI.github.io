@@ -8,7 +8,7 @@
 
 <script>
 import  { infiniteScroll }  from 'infinite-scroll-vue';
-// import 'infinite-scroll-vue/index.css'
+import 'infinite-scroll-vue/dist/index.css'
 export default {
  components: {
 	   infiniteScroll,

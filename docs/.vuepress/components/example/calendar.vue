@@ -1,13 +1,10 @@
 <template>
-  <div>
     <Calendar></Calendar>
-  </div>
 </template>
 
 <script>
 import  { Calendar }  from 'calendar-selector';
-// import 'calendar-selector/index.css'
-// console.log(Calendar)
+import 'calendar-selector/dist/index.css'
 export default {
   data(){
     return{
