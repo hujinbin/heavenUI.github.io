@@ -21,11 +21,7 @@ module.exports = {
       },
       {
         text: "友链",
-        items: [{
-            text: "淘宝店",
-            link: "https://shop266766986.taobao.com/?spm=a230r.7195193.1997079397.44.nqV10Q",
-            target: "_blank",
-          },
+        items: [
           {
             text: "我的博客",
             link: "https://hjb.leheavengame.com",
@@ -39,6 +35,16 @@ module.exports = {
           {
             text: "惠shop好货",
             link: "https://cash.leheavengame.com",
+            target: "_blank",
+          },
+          {
+            text: "惠shop",
+            link: "https://coupon.leheavengame.com",
+            target: "_blank",
+          },
+          {
+            text: "乾坤宝录",
+            link: "https://guide.leheavengame.com",
             target: "_blank",
           },
           {
@@ -99,6 +105,9 @@ module.exports = {
           "/document/calendar",
           "/document/infinitescroll",
           "/document/pullrefresh",
+          "/document/webpack-in-loader",
+          "/document/vite-plugin-vue2-jsx",
+          "/document/vite-plugin-image-require",
         ]
       },
     ]
