@@ -3,6 +3,8 @@
  */
 import Heaven from 'heaven-ui'
 import 'heaven-ui/lib/heaven-ui.min.css'
+
+import monitoringTool from 'monitoring-tool';
  
 export default ({
  Vue, // VuePress 正在使用的 Vue 构造函数
@@ -26,4 +28,7 @@ export default ({
         console.log(e)
       })
   }
+  new monitoringTool({
+    secret: 'XZMKZQEJN42GT7RC',
+  });
 }
