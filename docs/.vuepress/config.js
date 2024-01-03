@@ -106,6 +106,7 @@ module.exports = {
           "/document/infinitescroll",
           "/document/pullrefresh",
           "/document/webpack-in-loader",
+          "/document/useless-files-clean-plugin",
           "/document/vite-plugin-vue2-jsx",
           "/document/vite-plugin-image-require",
         ]
