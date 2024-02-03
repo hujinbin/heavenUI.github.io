@@ -29,6 +29,7 @@ export default ({
       })
   }
   new monitoringTool({
-    secret: 'XZMKZQEJN42GT7RC',
+    secret: "41UVKE6R2847PKAH",
+    host: "https://monitor.leheavengame.com",
   });
 }
