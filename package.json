@@ -7,22 +7,29 @@
     "doc": "docs"
   },
   "dependencies": {
+    "ai-agent-plugin": "0.0.3",
+    "big-data-tree": "0.0.7",
     "calendar-selector": "^0.0.3",
     "heaven-ui": "^1.0.1",
     "infinite-scroll-vue": "^0.0.2",
     "monitoring-tool": "^0.0.4",
+    "monitoring-tool-demo": "npm:monitoring-tool@0.1.0",
     "pull-refresh-vue": "^0.0.2",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "vue-google-adsense": "^1.9.3",
+    "vue-i18n": "8.28.2",
     "vue-script2": "^2.1.0",
     "vuepress": "^1.0.2"
   },
   "devDependencies": {
     "less": "^3.13.1",
-    "less-loader": "^6.2.0"
+    "less-loader": "^6.2.0",
+    "raw-loader": "4.0.2"
   },
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
+    "dev": "node --openssl-legacy-provider node_modules/vuepress/cli.js dev docs",
+    "build": "node --openssl-legacy-provider node_modules/vuepress/cli.js build docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

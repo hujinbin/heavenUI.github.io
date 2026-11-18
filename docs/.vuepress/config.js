@@ -5,7 +5,7 @@ module.exports = {
     search: false, //禁用默认的搜索框
     globalLayout: "/components/layout/GlobalLayout.vue",
     searchMaxSuggestions: 10, //搜索条数
-    displayAllHeaders: true, //自动生成侧栏
+    displayAllHeaders: false, // 只展开当前页面的章节，便于在项目之间切换
     sidebar: "auto",
     nav: [{
         text: "指南",
@@ -16,8 +16,8 @@ module.exports = {
         link: "/component/installation",
       },
       {
-        text: "其他插件",
-        link: "/document/calendar"
+        text: "插件与案例",
+        link: "/document/"
       },
       {
         text: "友链",
@@ -98,18 +98,47 @@ module.exports = {
     ],
     '/document':[
       {
-        title: "其他插件",
+        title: "插件与案例",
+        collapsable: false,
+        children: ["/document/"]
+      },
+      {
+        title: "工程与构建",
         collapsable: false,
         children: [
           "/document/cli",
-          "/document/calendar",
-          "/document/infinitescroll",
-          "/document/pullrefresh",
-          "/document/big-data-tree",
           "/document/webpack-in-loader",
           "/document/useless-files-clean-plugin",
           "/document/vite-plugin-vue2-jsx",
           "/document/vite-plugin-image-require",
+        ]
+      },
+      {
+        title: "AI 与 MCP",
+        collapsable: false,
+        children: [
+          "/document/ai-agent",
+          "/document/web3d-agent-cli",
+          "/document/mcp-server-jue-article",
+        ]
+      },
+      {
+        title: "应用与数据工具",
+        collapsable: false,
+        children: [
+          "/document/monitoring-tool",
+          "/document/png-convert-geojson",
+          "/document/react-electron",
+        ]
+      },
+      {
+        title: "交互组件",
+        collapsable: false,
+        children: [
+          "/document/calendar",
+          "/document/infinitescroll",
+          "/document/pullrefresh",
+          "/document/big-data-tree",
         ]
       },
     ]
